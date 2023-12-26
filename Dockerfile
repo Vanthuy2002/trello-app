@@ -10,4 +10,4 @@ RUN npm run build
 
 EXPOSE 3000
 
-CMD ["pm2" "start" "--name=trello-ui" "npm -- run preview"]
+CMD [ "pm2-runtime", "start", "--name=trello-ui", "npm -- run preview" ]
